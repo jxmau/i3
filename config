@@ -586,4 +586,5 @@ exec ~/.config/i3/scripts/screen.sh
 
 #polybar
 
- exec --no-startup-id polybar -c .config/polybar/config.init
+exec --no--startup-id polybar
+# exec_always --no-startup-id "polybar -c .config/i3/polybar/config.init"
